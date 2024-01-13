@@ -2,7 +2,7 @@
 pragma solidity ^0.8.23;
 
 import {Test} from "forge-std/Test.sol";
-import {IFallback} from "../src/interfaces/2_IFallback.sol";
+import {IFallback} from "../src/interfaces/1_IFallback.sol";
 
 address constant INSTANCE = 0xD65BF3AcdeD796e4329Fedc6d5d66c86E2074484;
 
