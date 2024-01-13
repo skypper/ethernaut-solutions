@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
 
-import "./interfaces/12_IElevator.sol";
+import "./interfaces/11_IElevator.sol";
 
 address constant INSTANCE = 0x1118AA9b45b103C914D5cc253C37832D78C4581a;
 
