@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
 
-import "./interfaces/5_ITelephone.sol";
+import "./interfaces/4_ITelephone.sol";
 
 contract TelephoneSolution {
     ITelephone instance;

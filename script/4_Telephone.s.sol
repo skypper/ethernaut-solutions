@@ -2,8 +2,8 @@
 pragma solidity ^0.8.23;
 
 import "forge-std/Script.sol";
-import "../src/interfaces/5_ITelephone.sol";
-import "../src/5_TelephoneSolution.sol";
+import "../src/interfaces/4_ITelephone.sol";
+import "../src/4_TelephoneSolution.sol";
 
 address constant INSTANCE = 0x81917BB2BA52486d99e3F65eCB2C61e1e8270197;
 
