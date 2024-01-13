@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
 
-import "./interfaces/10_IKing.sol";
+import "./interfaces/9_IKing.sol";
 
 address constant INSTANCE = 0x71D3235340d347343075932F7d5165e7aaB73BC2;
 

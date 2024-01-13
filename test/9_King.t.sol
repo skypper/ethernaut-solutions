@@ -2,8 +2,8 @@
 pragma solidity ^0.8.23;
 
 import "forge-std/Test.sol";
-import "../src/interfaces/10_IKing.sol";
-import "../src/10_KingSolution.sol";
+import "../src/interfaces/9_IKing.sol";
+import "../src/9_KingSolution.sol";
 
 contract KingPOCTest is Test {
     IKing instance = IKing(INSTANCE);
