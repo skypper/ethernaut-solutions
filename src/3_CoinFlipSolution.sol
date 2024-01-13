@@ -1,11 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
 import "@openzeppelin/contracts/utils/math/Math.sol";
-
-interface ICoinFlip {
-    function flip(bool _guess) external returns(bool);
-    function consecutiveWins() external returns(uint256);
-}
+import "./intefaces/3_ICoinFlip.sol";
 
 address constant INSTANCE = 0xA09efEbeA5Db5e0277DDc10c610b71183d3Ee939;
 uint256 constant FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;
