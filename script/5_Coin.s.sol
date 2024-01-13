@@ -2,7 +2,7 @@
 pragma solidity ^0.8.23;
 
 import "forge-std/Script.sol";
-import "../src/interfaces/6_ICoin.sol";
+import "../src/interfaces/5_ICoin.sol";
 
 address constant INSTANCE = 0x24dbC4117eB51413494e2171123Ba2472aD9Fc40;
 
