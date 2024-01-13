@@ -3,5 +3,5 @@ pragma solidity ^0.8.23;
 
 interface IPrivacy {
     function unlock(bytes16 _key) external;
-    function locked() external view returns(bool);
+    function locked() external view returns (bool);
 }

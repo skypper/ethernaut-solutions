@@ -19,7 +19,7 @@ contract ReentrancySolution {
         if (address(INSTANCE).balance == 0) {
             return;
         }
-        
+
         instance.withdraw(amount);
     }
 }

@@ -6,7 +6,7 @@ import "./interfaces/11_IElevator.sol";
 address constant INSTANCE = 0x1118AA9b45b103C914D5cc253C37832D78C4581a;
 
 interface Building {
-  function isLastFloor(uint) external returns (bool);
+    function isLastFloor(uint256) external returns (bool);
 }
 
 contract ElevatorSolution is Building {
@@ -17,7 +17,7 @@ contract ElevatorSolution is Building {
         instance.goTo(1);
     }
 
-    function isLastFloor(uint) external returns (bool) {
+    function isLastFloor(uint256) external returns (bool) {
         if (!isTop) {
             isTop = true;
             return false;

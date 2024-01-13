@@ -17,10 +17,12 @@ contract KingPOCTest is Test {
 
         KingSolution solution = new KingSolution();
         solution.solve();
-        address king = address(uint160(uint256(vm.load(INSTANCE, 0x0000000000000000000000000000000000000000000000000000000000000000))));
+        address king = address(
+            uint160(uint256(vm.load(INSTANCE, 0x0000000000000000000000000000000000000000000000000000000000000000)))
+        );
         assertEq(king, address(solution));
 
-        (bool success, ) = address(INSTANCE).call{value: instance.prize() + 1}("");
+        (bool success,) = address(INSTANCE).call{value: instance.prize() + 1}("");
         assertFalse(success);
 
         vm.stopBroadcast();

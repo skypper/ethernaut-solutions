@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
+
 import "@openzeppelin/contracts/utils/math/Math.sol";
 import "./interfaces/3_ICoinFlip.sol";
 
@@ -18,6 +19,6 @@ contract CoinFlipSolution {
         bool side = coinFlip == 1 ? true : false;
 
         bool success = instance.flip(side);
-        require(success, "Bad guess");    
+        require(success, "Bad guess");
     }
 }

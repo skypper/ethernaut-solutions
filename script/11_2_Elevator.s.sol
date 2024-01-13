@@ -7,7 +7,7 @@ import "../src/11_2_ElevatorSolution.sol";
 
 contract ElevatorPOCScript is Script {
     IElevator instance = IElevator(INSTANCE);
-    
+
     function run() external {
         vm.startBroadcast();
 
