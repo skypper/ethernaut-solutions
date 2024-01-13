@@ -2,11 +2,7 @@
 pragma solidity ^0.8.23;
 
 import "forge-std/Script.sol";
-
-interface IFallout {
-    function Fal1out() external payable;
-    function owner() external returns(address);
-}
+import "../src/interfaces/2_IFallout.sol";
 
 address constant INSTANCE = 0x5eb790b8dE9C31944d8AF4a2f4DdBa32030Dc203;
 
