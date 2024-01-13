@@ -2,7 +2,7 @@
 pragma solidity ^0.8.23;
 
 import "forge-std/Test.sol";
-import "../src/interfaces/9_IVault.sol";
+import "../src/interfaces/8_IVault.sol";
 address constant INSTANCE = 0xc34FdAB67BdE6133A7D94123e006E99e2cf9e9c2;
 
 contract VaultPOCTest is Test {
