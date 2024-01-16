@@ -21,6 +21,6 @@ contract DenialPOCScript is Script {
 
         vm.prank(instance.owner());
         vm.expectRevert();
-        instance.withdraw{gas:1000000}();
+        instance.withdraw{gas: 1000000}();
     }
 }
