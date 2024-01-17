@@ -2,7 +2,7 @@
 pragma solidity ^0.8.23;
 
 import "forge-std/Script.sol";
-import "../src/interfaces/22_Dex.sol";
+import "../src/interfaces/22_IDex.sol";
 import "forge-std/interfaces/IERC20.sol";
 
 address constant INSTANCE = 0xBe90FF7b44F0cD8A5e2e0480E64BBA125B3a7f47;
