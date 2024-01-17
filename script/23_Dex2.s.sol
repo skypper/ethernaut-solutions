@@ -27,16 +27,16 @@ contract Dex2POCScript is Script {
 
         VampireToken _vToken1 = new VampireToken("Vampire Token 1", "VMP1", msg.sender, INSTANCE);
         VampireToken _vToken2 = new VampireToken("Vampire Token 2", "VMP1", msg.sender, INSTANCE);
-        vm.label(address(vToken1), "Vampire Token A");
-        vm.label(address(vToken2), "Vampire Token B");
+        vm.label(address(_vToken1), "Vampire Token A");
+        vm.label(address(_vToken2), "Vampire Token B");
 
         address token1 = instance.token1();
         address token2 = instance.token2();
         vm.label(token1, "Token A");
         vm.label(token2, "Token B");
 
-        _swing(token1, address(vToken1));
-        _swing(token2, address(vToken2));
+        _swing(token1, address(_vToken1));
+        _swing(token2, address(_vToken2));
 
         vm.stopBroadcast();
 
