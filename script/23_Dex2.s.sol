@@ -2,7 +2,6 @@
 pragma solidity ^0.8.23;
 
 import "forge-std/Script.sol";
-// import "forge-std/interfaces/IERC20.sol";
 import "../src/interfaces/23_IDex2.sol";
 import "../src/23_Dex2.sol";
 
