@@ -5,4 +5,6 @@ libs = ["lib"]
 solc = "0.8.23"
 remappings = ["@oppenzeppelin/=lib/openzeppelin-contracts"]
 
+eth_rpc_url = "<INSERT RPC ENDPOINT>"
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
