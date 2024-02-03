@@ -10,7 +10,7 @@ uint256 constant FACTOR = 578960446186580977117854925043439539266349923328202820
 contract CoinFlipSolution {
     using Math for uint256;
 
-    ICoinFlip instance = ICoinFlip(INSTANCE);
+    ICoinFlip private _instance = ICoinFlip(INSTANCE);
 
     function solve() external {
         (, uint256 prevBlockNumber) = (block.number).trySub(1);
@@ -18,7 +18,7 @@ contract CoinFlipSolution {
         (, uint256 coinFlip) = (blockValue).tryDiv(FACTOR);
         bool side = coinFlip == 1 ? true : false;
 
-        bool success = instance.flip(side);
+        bool success = _instance.flip(side);
         require(success, "Bad guess");
     }
 }
