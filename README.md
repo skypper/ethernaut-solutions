@@ -72,7 +72,7 @@ The structure of the repository is as follows:
 | [20. Denial](https://ethernaut.openzeppelin.com/level/20)           | ✅ [20_Denial.s.sol](/script/20_Denial.s.sol)    |        |
 | [21. Shop](https://ethernaut.openzeppelin.com/level/21)             | ✅ [21_Shop.s.sol](/script/21_Shop.s.sol)    |        |
 | [22. Dex](https://ethernaut.openzeppelin.com/level/22)              | ✅ [22_Dex.s.sol](/script/22_Dex.s.sol)    |        |
-| [23. DexTwo](https://ethernaut.openzeppelin.com/level/23)           | ✅ [23_Dex2.s.sol](/script/23_Dex2.s.sol)    |        |
+| [23. DexTwo](https://ethernaut.openzeppelin.com/level/23)           | ✅ [23_DexTwo.s.sol](/script/23_DexTwo.s.sol)    |        |
 | [24. PuzzleWallet](https://ethernaut.openzeppelin.com/level/24)     | ✅ [24_PuzzleWallet.s.sol](/script/24_PuzzleWallet.s.sol)    |        |
 | [25. Motorbike](https://ethernaut.openzeppelin.com/level/25)         | ✅ [25_Motorbike.s.sol](/script/25_Motorbike.s.sol)    |        |
 | [26. DoubleEntryPoint](https://ethernaut.openzeppelin.com/level/26) | ✅ [26_DoubleEntryPoint.s.sol](/script/26_DoubleEntryPoint.s.sol)    | [26_DoubleEntryPoint.t.sol](/test/26_DoubleEntryPoint.t.sol)       |

@@ -2,12 +2,12 @@
 pragma solidity ^0.8.23;
 
 import "forge-std/Script.sol";
-import "../src/interfaces/23_IDex2.sol";
-import "../src/23_Dex2.sol";
+import "../src/interfaces/23_IDexTwo.sol";
+import "../src/23_DexTwo.sol";
 
 address constant INSTANCE = 0x4c991485c56a33ed027002c1D0EFe1e46bFa887d;
 
-contract Dex2POCScript is Script {
+contract DexTwoPOCScript is Script {
     IDex2 instance = IDex2(INSTANCE);
 
     function _swing(address token1, address token2) internal {
