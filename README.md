@@ -1,4 +1,8 @@
-## Foundry
+## Ethernaut Solutions implemented in Foundry 2024
+
+GM, anon!
+
+> "The Ethernaut is a Web3/Solidity based wargame inspired by overthewire.org, played in the Ethereum Virtual Machine. Each level is a smart contract that needs to be 'hacked'." - [Ethernaut webpage](https://ethernaut.openzeppelin.com/)
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
@@ -12,6 +16,10 @@ Foundry consists of:
 ## Documentation
 
 https://book.getfoundry.sh/
+https://blog.dixitaditya.com/series/ethernaut
+https://twitter.com/tudoratu/status/1744032551520313361
+https://twitter.com/tudoratu/status/1748351567663620512
+Google is your friend
 
 ## Usage
 
