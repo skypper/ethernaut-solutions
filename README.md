@@ -21,7 +21,7 @@ Foundry consists of:
 - https://twitter.com/tudoratu/status/1748351567663620512
 - Google is your friend
 
-## Installation
+## Setup and Installation
 1. If you haven't already done so, install Foundry on your machine by running the following commands:
 ```shell
 curl -L https://foundry.paradigm.xyz | bash
@@ -29,8 +29,16 @@ foundryup
 ```
 2. Clone the Ethernaut Foundry Solutions Repository (and remember to give it a star on Github 😉).
 3. Run forge build to execute the build process.
-4. Make a copy of .env.example and rename it to .env.
-5. Fill in the parameters in your .env file.
+4. Create a new random key pair and import it into MetaMask.
+```shell
+cast wallet new
+```
+5. Ethernaut supports a few testnets, however we recommend solving the challenges on the Sepolia testnet using Alchemy web3 provider. 
+- https://sepoliafaucet.com/
+- https://sepolia-faucet.pk910.de/
+- https://www.alchemy.com/
+6. Make a copy of .env.example and rename it to .env.
+7. Fill in the parameters in your .env file.
 
 ## Structure
 
