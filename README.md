@@ -32,6 +32,46 @@ foundryup
 4. Make a copy of .env.example and rename it to .env.
 5. Fill in the parameters in your .env file.
 
+## Structure
+
+The structure of the repository is as follows:
+
+- Under `/src`, you'll find contracts that implement solutions (attack contracts) for each challenge.
+- Under `/script`, there are scripts responsible for deploying the attack contracts and executing the attack.
+- Under `/test`, you'll find tests that validate the solutions. These tests, similar to scripts, conduct more comprehensive checks.
+
+| Level                | Script   | Test |
+| -------------------- | ------ | ------ |
+| 1. Fallback          | ✅ [1_Fallback.s.sol](/script/1_Fallback.s.sol)     |        |
+| 2. Fallout           | ✅ [2_Fallout.s.sol](/script/2_Fallout.s.sol)    |        |
+| 3. CoinFlip          | ✅     |        |
+| 4. Telephone         | ✅     |        |
+| 5. Token             | ✅     |        |
+| 6. Delegation        | ✅     |        |
+| 7. Force             | ✅     |        |
+| 8. Vault             | ✅     |        |
+| 9. King              | ✅     |        |
+| 10. Reentrance       | ✅     |        |
+| 11. Elevator         | ✅     |        |
+| 12. Privacy          | ✅     |        |
+| 13. GatekeeperOne    | ✅     |        |
+| 14. GatekeeperTwo    | ✅     |        |
+| 15. NaughtCoin       | ✅     |        |
+| 16. Preservation     | ✅     |        |
+| 17. Recovery         | ✅     |        |
+| 18. MagicNum         | ✅     |        |
+| 19. AlienCodex       | ✅     |        |
+| 20. Denial           | ✅     |        |
+| 21. Shop             | ✅     |        |
+| 22. Dex              | ✅     |        |
+| 23. DexTwo           | ✅     |        |
+| 24. PuzzleWallet     | ✅     |        |
+| 25. Motorbike        | ✅     |        |
+| 26. DoubleEntryPoint | ✅     |        |
+| 27. GoodSamaritan    | ✅     |        |
+| 28. GatekeeperThree  | ✅     |        |
+| 29. Switch           | ✅     |        |
+
 ## Usage
 
 ### Build
