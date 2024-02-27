@@ -50,35 +50,35 @@ The structure of the repository is as follows:
 
 | Level                | Script   | Test |
 | -------------------- | ------ | ------ |
-| 1. Fallback          | ✅ [1_Fallback.s.sol](/script/1_Fallback.s.sol)     | [1_Fallback.t.sol](/test/1_Fallback.t.sol)       |
-| 2. Fallout           | ✅ [2_Fallout.s.sol](/script/2_Fallout.s.sol)    |        |
-| 3. CoinFlip          | ✅ [3_CoinFlip.s.sol](/script/3_CoinFlip.s.sol)    |        |
-| 4. Telephone         | ✅ [4_Telephone.s.sol](/script/4_Telephone.s.sol)    | [4_Telephone.t.sol](/test/4_Telephone.t.sol)       |
-| 5. Token             | ✅ [5_Coin.s.sol](/script/5_Coin.s.sol)    |        |
-| 6. Delegation        | ✅ [6_Delegation.s.sol](/script/6_Delegation.s.sol)    | [6_Delegation.t.sol](/test/6_Delegation.t.sol)       |
-| 7. Force             | ✅ [7_Force.s.sol](/script/7_Force.s.sol)    | [7_Force.t.sol](/test/7_Force.t.sol)       |
-| 8. Vault             | ✅ [8_Vault.s.sol](/script/8_Vault.s.sol)    | [8_Vault.t.sol](/test/8_Vault.t.sol)       |
-| 9. King              | ✅ [9_King.s.sol](/script/9_King.s.sol)    | [9_King.t.sol](/test/9_King.t.sol)       |
-| 10. Reentrancy       | ✅ [10_Reentrancy.s.sol](/script/10_Reentrancy.s.sol)    | [10_Reentrancy.t.sol](/test/10_Reentrancy.t.sol)       |
-| 11. Elevator         | ✅ [11_Elevator.s.sol](/script/11_Elevator.s.sol)    |        |
-| 12. Privacy          | ✅ [12_Privacy.s.sol](/script/12_Privacy.s.sol)    |        |
-| 13. GatekeeperOne    | ✅ [13_GatekeeperOne.s.sol](/script/13_GatekeeperOne.s.sol)    |        |
-| 14. GatekeeperTwo    | ✅ [14_GatekeeperTwo.s.sol](/script/14_GatekeeperTwo.s.sol)    |        |
-| 15. NaughtCoin       | ✅ [15_NaughtCoin.s.sol](/script/15_NaughtCoin.s.sol)    |        |
-| 16. Preservation     | ✅ [16_Preservation.s.sol](/script/16_Preservation.s.sol)    |        |
-| 17. Recovery         | ✅ [17_Recovery.s.sol](/script/17_Recovery.s.sol)    |        |
-| 18. MagicNum         | ✅ [18_MagicNum.s.sol](/script/18_MagicNum.s.sol)    |        |
-| 19. AlienCodex       | ✅ [19_AlienCodex.s.sol](/script/19_AlienCodex.s.sol)    |        |
-| 20. Denial           | ✅ [20_Denial.s.sol](/script/20_Denial.s.sol)    |        |
-| 21. Shop             | ✅ [21_Shop.s.sol](/script/21_Shop.s.sol)    |        |
-| 22. Dex              | ✅ [22_Dex.s.sol](/script/22_Dex.s.sol)    |        |
-| 23. DexTwo           | ✅ [23_Dex2.s.sol](/script/23_Dex2.s.sol)    |        |
-| 24. PuzzleWallet     | ✅ [24_PuzzleWallet.s.sol](/script/24_PuzzleWallet.s.sol)    |        |
-| 25. Motorbike        | ✅ [25_Motorbike.s.sol](/script/25_Motorbike.s.sol)    |        |
-| 26. DoubleEntryPoint | ✅ [26_DoubleEntryPoint.s.sol](/script/26_DoubleEntryPoint.s.sol)    | [26_DoubleEntryPoint.t.sol](/test/26_DoubleEntryPoint.t.sol)       |
-| 27. GoodSamaritan    | ✅ [27_GoodSamaritan.s.sol](/script/27_GoodSamaritan.s.sol)    |        |
-| 28. GatekeeperThree  | ✅ [28_GatekeeperThree.s.sol](/script/28_GatekeeperThree.s.sol)    |        |
-| 29. Switch           | ✅ -    |        |
+| [1. Fallback](https://ethernaut.openzeppelin.com/level/1)          | ✅ [1_Fallback.s.sol](/script/1_Fallback.s.sol)     | [1_Fallback.t.sol](/test/1_Fallback.t.sol)       |
+| [2. Fallout](https://ethernaut.openzeppelin.com/level/2)           | ✅ [2_Fallout.s.sol](/script/2_Fallout.s.sol)    |        |
+| [3. CoinFlip](https://ethernaut.openzeppelin.com/level/3)          | ✅ [3_CoinFlip.s.sol](/script/3_CoinFlip.s.sol)    |        |
+| [4. Telephone](https://ethernaut.openzeppelin.com/level/4)         | ✅ [4_Telephone.s.sol](/script/4_Telephone.s.sol)    | [4_Telephone.t.sol](/test/4_Telephone.t.sol)       |
+| [5. Token](https://ethernaut.openzeppelin.com/level/5)             | ✅ [5_Coin.s.sol](/script/5_Coin.s.sol)    |        |
+| [6. Delegation](https://ethernaut.openzeppelin.com/level/6)        | ✅ [6_Delegation.s.sol](/script/6_Delegation.s.sol)    | [6_Delegation.t.sol](/test/6_Delegation.t.sol)       |
+| [7. Force](https://ethernaut.openzeppelin.com/level/7)             | ✅ [7_Force.s.sol](/script/7_Force.s.sol)    | [7_Force.t.sol](/test/7_Force.t.sol)       |
+| [8. Vault](https://ethernaut.openzeppelin.com/level/8)             | ✅ [8_Vault.s.sol](/script/8_Vault.s.sol)    | [8_Vault.t.sol](/test/8_Vault.t.sol)       |
+| [9. King](https://ethernaut.openzeppelin.com/level/9)              | ✅ [9_King.s.sol](/script/9_King.s.sol)    | [9_King.t.sol](/test/9_King.t.sol)       |
+| [10. Reentrancy](https://ethernaut.openzeppelin.com/level/10)       | ✅ [10_Reentrancy.s.sol](/script/10_Reentrancy.s.sol)    | [10_Reentrancy.t.sol](/test/10_Reentrancy.t.sol)       |
+| [11. Elevator](https://ethernaut.openzeppelin.com/level/11)         | ✅ [11_Elevator.s.sol](/script/11_Elevator.s.sol)    |        |
+| [12. Privacy](https://ethernaut.openzeppelin.com/level/12)          | ✅ [12_Privacy.s.sol](/script/12_Privacy.s.sol)    |        |
+| [13. GatekeeperOne](https://ethernaut.openzeppelin.com/level/13)    | ✅ [13_GatekeeperOne.s.sol](/script/13_GatekeeperOne.s.sol)    |        |
+| [14. GatekeeperTwo](https://ethernaut.openzeppelin.com/level/14)    | ✅ [14_GatekeeperTwo.s.sol](/script/14_GatekeeperTwo.s.sol)    |        |
+| [15. NaughtCoin](https://ethernaut.openzeppelin.com/level/15)       | ✅ [15_NaughtCoin.s.sol](/script/15_NaughtCoin.s.sol)    |        |
+| [16. Preservation](https://ethernaut.openzeppelin.com/level/16)     | ✅ [16_Preservation.s.sol](/script/16_Preservation.s.sol)    |        |
+| [17. Recovery](https://ethernaut.openzeppelin.com/level/17)         | ✅ [17_Recovery.s.sol](/script/17_Recovery.s.sol)    |        |
+| [18. MagicNum](https://ethernaut.openzeppelin.com/level/18)         | ✅ [18_MagicNum.s.sol](/script/18_MagicNum.s.sol)    |        |
+| [19. AlienCodex](https://ethernaut.openzeppelin.com/level/19)       | ✅ [19_AlienCodex.s.sol](/script/19_AlienCodex.s.sol)    |        |
+| [20. Denial](https://ethernaut.openzeppelin.com/level/20)           | ✅ [20_Denial.s.sol](/script/20_Denial.s.sol)    |        |
+| [21. Shop](https://ethernaut.openzeppelin.com/level/21)             | ✅ [21_Shop.s.sol](/script/21_Shop.s.sol)    |        |
+| [22. Dex](https://ethernaut.openzeppelin.com/level/22)              | ✅ [22_Dex.s.sol](/script/22_Dex.s.sol)    |        |
+| [23. DexTwo](https://ethernaut.openzeppelin.com/level/23)           | ✅ [23_Dex2.s.sol](/script/23_Dex2.s.sol)    |        |
+| [24. PuzzleWallet](https://ethernaut.openzeppelin.com/level/24)     | ✅ [24_PuzzleWallet.s.sol](/script/24_PuzzleWallet.s.sol)    |        |
+| [25. Motorbike](https://ethernaut.openzeppelin.com/level/25)         | ✅ [25_Motorbike.s.sol](/script/25_Motorbike.s.sol)    |        |
+| [26. DoubleEntryPoint](https://ethernaut.openzeppelin.com/level/26) | ✅ [26_DoubleEntryPoint.s.sol](/script/26_DoubleEntryPoint.s.sol)    | [26_DoubleEntryPoint.t.sol](/test/26_DoubleEntryPoint.t.sol)       |
+| [27. GoodSamaritan](https://ethernaut.openzeppelin.com/level/27)    | ✅ [27_GoodSamaritan.s.sol](/script/27_GoodSamaritan.s.sol)    |        |
+| [28. GatekeeperThree](https://ethernaut.openzeppelin.com/level/28)  | ✅ [28_GatekeeperThree.s.sol](/script/28_GatekeeperThree.s.sol)    |        |
+| [29. Switch](https://ethernaut.openzeppelin.com/level/29)           | ✅ -    |        |
 
 ## Usage
 
