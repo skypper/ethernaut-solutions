@@ -15,10 +15,10 @@ Foundry consists of:
 
 ## Documentation
 
-https://book.getfoundry.sh/
-https://blog.dixitaditya.com/series/ethernaut
-https://twitter.com/tudoratu/status/1744032551520313361
-https://twitter.com/tudoratu/status/1748351567663620512
+- https://book.getfoundry.sh/
+- https://blog.dixitaditya.com/series/ethernaut
+- https://twitter.com/tudoratu/status/1744032551520313361
+- https://twitter.com/tudoratu/status/1748351567663620512
 Google is your friend
 
 ## Usage
