@@ -21,6 +21,17 @@ Foundry consists of:
 - https://twitter.com/tudoratu/status/1748351567663620512
 - Google is your friend
 
+## Installation
+1. If you haven't already done so, install Foundry on your machine by running the following commands:
+```shell
+curl -L https://foundry.paradigm.xyz | bash
+foundryup
+```
+2. Clone the Ethernaut Foundry Solutions Repository (and remember to give it a star on Github 😉).
+3. Run forge build to execute the build process.
+4. Make a copy of .env_example and rename it to .env.
+5. Fill in the parameters in your .env file.
+
 ## Usage
 
 ### Build
