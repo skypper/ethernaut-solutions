@@ -19,7 +19,7 @@ Foundry consists of:
 - https://blog.dixitaditya.com/series/ethernaut
 - https://twitter.com/tudoratu/status/1744032551520313361
 - https://twitter.com/tudoratu/status/1748351567663620512
-Google is your friend
+- Google is your friend
 
 ## Usage
 
