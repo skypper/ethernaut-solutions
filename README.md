@@ -29,7 +29,7 @@ foundryup
 ```
 2. Clone the Ethernaut Foundry Solutions Repository (and remember to give it a star on Github 😉).
 3. Run forge build to execute the build process.
-4. Make a copy of .env_example and rename it to .env.
+4. Make a copy of .env.example and rename it to .env.
 5. Fill in the parameters in your .env file.
 
 ## Usage
